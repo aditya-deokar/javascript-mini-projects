@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(29, 25, 25);
+    padding: 5vw;
+    gap: 1vw;
+
+}
+
+
+.inputscontainer{
+    width: 55%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.inputscontainer input{
+    width: 80%;
+    padding: 1vw 0.6vw;
+    border: 1px solid #dadada;
+    font-size: 1rem;
+    
+}
+.inputscontainer button{
+    width: 18%;
+    padding: 1vw 0.6vw;
+    border: 1px solid #dadada;
+    background-color: rgb(94, 224, 179);
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.container{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: .3vw;
+
+}
+.element{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    background-color: rgb(73, 177, 141);
+    border-radius: 4px;
+    gap: 1vw;
+    padding: 0.9vw 1vw;
+
+}
+.element h4{
+    width: 60%;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+.complete{
+    opacity: 0.3;
+    text-decoration:line-through;
+}
+.checkcontainer{
+    display: flex;
+    gap:1vw;
+}
+.element span{
+    cursor: pointer;
+}
+h1{
+    font-size: 5vw;
+    text-transform: uppercase;
+    color: rgb(118, 170, 152);
+}
